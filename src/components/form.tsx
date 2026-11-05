@@ -3,7 +3,6 @@ import { useForm, type SubmitHandler } from "react-hook-form";
 
 import type { createTask, Task, TaskPriority } from "../utils/interface/task";
 import CrossIcon from "../assets/icons/crossIcon";
-import ClockIcon from "../assets/icons/clockIcon";
 import CalanderIcon from "../assets/icons/calenderIcon";
 
 interface TaskFormProps {
