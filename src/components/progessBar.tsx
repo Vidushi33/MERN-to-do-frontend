@@ -16,12 +16,6 @@ const getStartOfWeek = (date: Date) => {
   return monday;
 };
 
-const formatDate = (date: Date) =>
-  date.toLocaleDateString("en-IN", {
-    day: "numeric",
-    month: "short",
-  });
-
 const ProgressBar = ({ tasks, selectedDate }: ProgressBarProps) => {
   const { progress } = useMemo(() => {
     const weekStart = getStartOfWeek(selectedDate);
@@ -48,7 +42,6 @@ const ProgressBar = ({ tasks, selectedDate }: ProgressBarProps) => {
 
     return {
       progress,
-      weekLabel: `${formatDate(weekStart)} – ${formatDate(lastDay)}`,
     };
   }, [tasks, selectedDate]);
 

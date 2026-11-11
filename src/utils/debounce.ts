@@ -13,3 +13,4 @@ export const debounce = (callback: () => void, delay: number) => {
 
   return debounced;
 };
+

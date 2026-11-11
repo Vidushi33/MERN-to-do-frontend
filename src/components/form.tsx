@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/incompatible-library */
 import { useEffect } from "react";
 import { useForm, type SubmitHandler } from "react-hook-form";
 

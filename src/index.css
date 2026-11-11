@@ -3,19 +3,6 @@
 @theme {
   /* Brand colours */
   --color-primary: #4566ec;
-  --color-secondary: #19d16f;
-  --color-accent: #ffc531;
-
-  /* Background colours */
-  --color-background: #f8f9fc;
-  --color-surface: #ffffff;
-
-  /* Text colours */
-  --color-heading: #1f2937;
-  --color-body: #6b7280;
-
-  /* Border */
-  --color-border: #e5e7eb;
 }
 
 :root {
@@ -25,10 +12,6 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   --blue: #4966ee;
-  --blue-dark: #293f9e;
-  --ink: #111426;
-  --muted: #9699a5;
-  --line: #ececf1;
 }
 * {
   box-sizing: border-box;
